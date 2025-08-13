@@ -4,3 +4,6 @@ resources:
   - namespaces/nginx-namespace.yaml
   - apps/nginx-deployment.yaml
   - apps/nginx-service.yaml
+  - flux/image-repository.yaml
+  - flux/image-policy.yaml
+  - flux/image-update-automation.yaml
