@@ -1,0 +1,16 @@
+apiVersion: image.toolkit.fluxcd.io/v1beta1
+kind: ImageUpdateAutomation
+metadata:
+  name: nginx-auto
+  namespace: flux-system
+spec:
+  interval: 1m
+  sourceRef:
+    kind: GitRepository
+    name: flux-nginx-demo
+  git:
+    commit:
+      authorName: fluxcd
+      authorEmail: fluxcd@example.com
+    push:
+      branch: main
