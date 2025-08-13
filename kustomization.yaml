@@ -1,0 +1,4 @@
+resources:
+  - namespaces/nginx-namespace.yaml
+  - apps/nginx-deployment.yaml
+  - apps/nginx-service.yaml
