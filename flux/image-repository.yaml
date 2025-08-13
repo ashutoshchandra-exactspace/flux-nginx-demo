@@ -1,0 +1,8 @@
+apiVersion: image.toolkit.fluxcd.io/v1beta1
+kind: ImageRepository
+metadata:
+  name: nginx
+  namespace: flux-system
+spec:
+  interval: 1m
+  url: docker.io/ashu312004/test-flux-nginx
