@@ -10,7 +10,8 @@ spec:
     name: flux-nginx-demo
   git:
     commit:
-      authorName: fluxcd
-      authorEmail: fluxcd@example.com
+      author:
+        name: fluxcd
+        email: fluxcd@example.com
     push:
       branch: main
