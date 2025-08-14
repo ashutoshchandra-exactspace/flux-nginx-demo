@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: ashu312004/test-flux-nginx:v1.0.0 # {"$imagepolicy": "flux-system:nginx-latest"}
+          image: docker.io/ashu312004/test-flux-nginx:v1.0.1 # {"$imagepolicy": "flux-system:nginx-latest"}
           ports:
             - containerPort: 80
