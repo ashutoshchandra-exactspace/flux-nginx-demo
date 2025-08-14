@@ -5,4 +5,4 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m
-  url: docker.io/ashu312004/test-flux-nginx
+  image: docker.io/ashu312004/test-flux-nginx
