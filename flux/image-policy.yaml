@@ -7,6 +7,5 @@ spec:
   imageRepositoryRef:
     name: nginx
   policy:
-    latest:
-      semver:
-        range: "*"
+    alphabetical:
+      order: desc
